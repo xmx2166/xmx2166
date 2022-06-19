@@ -83,10 +83,6 @@ void signUp2()//开户（英文）
 
 	printf("Please enter your mobile number：\n");
 	scanf_s("%s", a[i].tel, sizeof(a[i].tel));
-
-	a[i].money = 0.0f;
-
-
 	FILE* fp = fopen("D:/atm.txt", "a");//存入文件（a表示追加写入）
 	if (fp != NULL)
 	{
